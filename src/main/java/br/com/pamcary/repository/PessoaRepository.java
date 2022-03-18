@@ -11,6 +11,6 @@ import br.com.pamcary.entity.Pessoa;
 public interface PessoaRepository extends CrudRepository<Pessoa, Integer> {
 	
 	//buscar pelo nome
-	public List<Pessoa> findByNomeStartingWith(String nome);
+	public List<Pessoa> findByCpf(String cpf);
 
 }

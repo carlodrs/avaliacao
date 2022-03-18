@@ -51,8 +51,8 @@ public class PessoaController {
 	}
 	
 	@GetMapping("/pesquisar")
-	public List<Pessoa> pesquisar(@RequestParam String nome) {
-		return this.service.pesquisar(nome);
+	public List<Pessoa> pesquisar(@RequestParam String cpf) {
+		return this.service.pesquisar(cpf);
 	}
 
 }

@@ -9,7 +9,7 @@ public interface PessoaService {
 	public List<Pessoa> listar();
 	public void atualizar (Pessoa pessoa);
 	public void excluir (Integer id);
-	public List<Pessoa> pesquisar (String nome);
+	public List<Pessoa> pesquisar (String cpf);
 	public void salvar(Pessoa pessoa);
 	public Pessoa recuperar(Integer id);
 	

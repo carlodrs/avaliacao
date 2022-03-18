@@ -58,7 +58,7 @@ public class PessoaServiceImpl implements PessoaService {
 	}
 
 	@Override
-	public List<Pessoa> pesquisar(String nome) {
-		return repository.findByNomeStartingWith(nome);
+	public List<Pessoa> pesquisar(String cpf) {
+		return repository.findByCpf(cpf);
 	}
 }
