@@ -23,3 +23,12 @@
   text-align: center;
   font-weight: bold;
 }
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba($color: #c5c4c4, $alpha: 1.0);
+  padding: 25px;
+}
+
